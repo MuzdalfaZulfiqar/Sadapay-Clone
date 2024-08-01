@@ -1,0 +1,1081 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-variation-settings:
+    "slnt" 0; */
+}
+html body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    background-color: rgba(255, 188, 177, 0);
+}
+body {
+  height: 210vh;
+  margin: 0;
+}
+
+
+.container {
+  height: 240vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgba(255, 188, 177, 0);
+}
+
+.header_Class {
+  position: relative;
+  width: 100vw;
+  height: 120vh;
+  overflow: hidden;
+  background-color: rgb(245 245 242);
+}
+
+.backImg
+{
+
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  right: 66px;
+  top: 9px;
+
+}
+.titleImage{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: 3px;
+  left: 62px;
+}
+
+.navBar {
+  width: 100vw;
+  position: absolute;
+  z-index: 19; /* // optiona; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.titleSpan{
+  font-weight: bold;
+}
+.title {
+    font-size: 30px;
+    margin: 29px 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+    align-items: center;
+}
+.menu {
+  margin: 6px 40px;
+  float: right;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  display: flex;
+  gap: 10px;
+  margin: 16px 30px;
+  font-size: 16px;
+  font-weight: 200px;
+}
+li {
+  list-style: none;
+  margin: 10px 10px;
+}
+.signUp {
+  margin: 20px 50px;
+}
+button {
+  font-size: 15px;
+  width: 90px;
+  height: 40px;
+  margin-left: 99px;
+  border-radius: 9px;
+}
+.catchyLines {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left: 10%;
+  top: 19%;
+  border-radius: 26px;
+}
+
+.catchyLinesOne {
+
+  font-size: 60px;
+  margin: 20px -17px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.catchyLinesTwo {
+
+  
+  width: 532px;
+  font-size: 60px;
+  margin: 10px -17px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.catchyLinesThree {
+  margin: 20px -17px;
+    width: 436px;
+    color: #706b6b;
+    font-size: 16px;
+
+}
+.exploreButton {
+  font-size: 22px;
+  width: 321px;
+  height: 45px;
+  margin-left: -17px;
+  background-color: #ff7b66;;
+  border: 1px solid #ff7b66;;
+  border-radius: 9px;
+  margin-top: 10px;
+  color: white;
+}
+.exploreButton :hover{
+    /* background-color: ; */
+}
+
+.someStats{
+  display: flex;
+  margin: 10px -17px;
+  gap: 28px;
+}
+
+.stars
+{
+  display: flex;
+  flex-direction: column;
+
+  gap: 9px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.someStatIcons{
+
+  height: 50px;
+  background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 1px beige;
+}
+
+.someStatIcons img{
+
+  object-position: center;
+  width: 80px;
+  height: 40px;
+}
+
+.stars img{
+  width: 214px;
+  /* height: 50px; */
+
+}
+.stars p{
+ font-size: 12px;
+ margin-left: -53px;
+
+}
+.footer{
+  height: 120vh;
+  background-color: #f2f6f7;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: 23px;
+}
+.footerHero{
+  width: 90vw;
+  height: 120vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 90px;
+
+}
+.footer-left{
+  width: 40%;
+}
+
+.footer-left .title{
+  justify-content: left;
+  width: 200px;
+}
+.footer-left .title img{
+  left: 4px;
+}
+.footer-right{
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+}
+.footer-col1-detail{
+  margin-left: 64px;
+  color: grey;
+  margin-right: 52px;
+  font-size: 15px;
+}
+
+.col2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.col2-title{
+  margin: 17px 0px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+.col2-items{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+.col2-items p{
+  color: grey;
+  font-size: 14px;
+}
+.col3{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.col3-title{
+  margin: 5px 0px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.col3-item a{
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+}
+.col3-item a:hover{
+  border-bottom: 1px solid black;
+}
+.terms
+{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.terms a:hover{
+  border-bottom: 1px solid black;
+}
+.urdu{
+  font-weight: bold;
+}
+.col4-title{
+  margin: 17px 0px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+.footer-socialLinks{
+  display: flex;
+  bottom: 0px;
+  height: 73px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.footer-socialLinks img{
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.socialLinkDiv{
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+}
+.col4-download-title{
+  margin: 17px 0px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+.col4-download-button{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.col4-download-button img{
+  border-radius: 5px;
+  width: 219px;
+}
+.socialLinkDiv:hover{
+  background-color: #dfdede;
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+  
+  .footerHero{
+    width: 90vw;
+    height: 120vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+  
+  }
+  .footer-left{
+    width: 100%;
+  }
+  .footer-right{
+    width: 100%;
+    margin: 10px 50px;
+  }
+  .col4{
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:699px) {
+  
+  .container{
+    height: 290vh;
+  }
+  .footer{
+    height: 190vh;
+  }
+  .footerHero{
+    width: 90vw;
+    height: 120vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+  
+  }
+  .footer-left{
+    width: 100%;
+  }
+  .footer-right{
+    width: 100%;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .col4{
+    margin-right: 40px;
+  }
+  .backImg
+  {
+    position: absolute;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: visible;
+          right: 22px;
+          top: 9px;
+          width: 20px;
+  
+  }
+}
+@media screen and (min-width:1220px) and (max-width:1310px) {
+
+  .catchyLines {
+    width: 38%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:50px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 532px;
+    font-size: 50px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 336px;
+      color: #706b6b;
+      font-size: 13px;
+  
+  }
+  .exploreButton {
+    font-size: 22px;
+    width: 221px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .menu ul li {
+    display: flex;
+    gap: 10px;
+    margin: 16px 30px;
+    font-size: 12px;
+    font-weight: 200px;
+  }
+  .backImg
+  {
+    position: absolute;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: visible;
+          right: 22px;
+          top: 9px;
+          width: 20px;
+  
+  }
+}
+
+@media screen and (min-width:1074px) and (max-width:1219px) {
+
+  .catchyLines {
+    width: 38%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:40px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 532px;
+    font-size: 40px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 286px;
+      color: #706b6b;
+      font-size: 13px;
+  
+  }
+  .exploreButton {
+    font-size: 22px;
+    width: 171px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+  .someStats{
+    display: flex;
+    margin: 10px -17px;
+    gap: 28px;
+  }
+  
+  .stars
+  {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 9px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .someStatIcons{
+  
+    height: 50px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 1px 1px beige;
+  }
+  
+  .someStatIcons img{
+  
+    object-position: center;
+    width: 60px;
+    height: 40px;
+  }
+  
+  .stars img{
+    width: 104px;
+    /* height: 50px; */
+  
+  }
+  .stars p{
+   font-size: 7px;
+   margin-left: -53px;
+  
+  }
+  .backImg
+  {
+    position: absolute;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: visible;
+          right: 22px;
+          top: 9px;
+          width: 20px;
+  
+  }
+
+}
+
+
+@media screen and (min-width:970px) and (max-width:1075px) {
+
+  .catchyLines {
+    width: 38%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:20px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 532px;
+    font-size: 20px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 226px;
+      color: #706b6b;
+      font-size: 9px;
+  
+  }
+  .exploreButton {
+    font-size: 22px;
+    width: 171px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+  .someStats{
+    display: flex;
+    margin: 10px -17px;
+    gap: 28px;
+  }
+  
+  .stars
+  {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 9px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .someStatIcons{
+  
+    height: 50px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 1px 1px beige;
+  }
+  
+  .someStatIcons img{
+  
+    object-position: center;
+    width: 60px;
+    height: 40px;
+  }
+  
+  .stars img{
+    width: 104px;
+    /* height: 50px; */
+  
+  }
+  .stars p{
+   font-size: 7px;
+   margin-left: -53px;
+  
+  }
+  .menu ul li {
+    display: flex;
+    gap: 10px;
+    margin: 16px 30px;
+    font-size: 8px;
+    font-weight: 200px;
+  }
+
+  .titleImage{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 3px;
+    left: 33px;
+  }
+  .backImg
+{
+  position: absolute;
+  height: 100%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  overflow: visible;
+  right: 121px;
+  top: 9px;
+  width: 478px;
+
+}
+  
+}
+
+
+@media screen and (min-width:700px) and (max-width:969px) {
+
+  .catchyLines {
+    width: 38%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:20px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 532px;
+    font-size: 20px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 226px;
+      color: #706b6b;
+      font-size: 9px;
+  
+  }
+  .exploreButton {
+    font-size: 22px;
+    width: 171px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+  .someStats{
+    display: flex;
+    margin: 10px -17px;
+    gap: 28px;
+  }
+  
+  .stars
+  {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 9px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .someStatIcons{
+  
+    height: 50px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 1px 1px beige;
+  }
+  
+  .someStatIcons img{
+  
+    object-position: center;
+    width: 60px;
+    height: 40px;
+  }
+  
+  .stars img{
+    width: 104px;
+    /* height: 50px; */
+  
+  }
+  .stars p{
+   font-size: 7px;
+   margin-left: -53px;
+  
+  }
+  .menu ul li {
+    display: flex;
+    gap: 10px;
+    margin: 16px 10px;
+    font-size: 8px;
+    font-weight: 200px;
+  }
+
+  .titleImage{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 3px;
+    left: 16px;
+  }
+  .backImg
+{
+  position: absolute;
+  height: 100%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  overflow: visible;
+  right: 161px;
+  top: 9px;
+  width: 100px;
+
+}
+  
+}
+
+
+@media screen and (min-width:500px) and (max-width:699px) {
+
+  .catchyLines {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:17px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 332px;
+    font-size: 17px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 126px;
+      color: #706b6b;
+      font-size: 9px;
+  
+  }
+  .exploreButton {
+    font-size: 13px;
+    width: 101px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+  .someStats{
+    display: flex;
+    margin: 10px -17px;
+    gap: 28px;
+  }
+  
+  .stars
+  {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 9px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .someStatIcons{
+  
+    height: 50px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 1px 1px beige;
+  }
+  
+  .someStatIcons img{
+  
+    object-position: center;
+    width: 60px;
+    height: 40px;
+  }
+  
+  .stars img{
+    width: 104px;
+    /* height: 50px; */
+  
+  }
+  .stars p{
+   font-size: 7px;
+   margin-left: -53px;
+  }
+  .menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .menu ul li {
+    display: flex;
+    gap: 7px;
+    margin: 16px 2px;
+    font-size: 8px;
+    font-weight: 200px;
+  }
+
+  .titleImage{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 3px;
+    left: 16px;
+  }
+  .backImg
+{
+  position: absolute;
+  height: 100%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  overflow: visible;
+        right: 22px;
+        top: 9px;
+        width: 20px;
+
+}
+  
+}
+
+
+@media screen and (min-width:400px) and (max-width:499px) {
+
+  .catchyLines {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+    top: 19%;
+    border-radius: 26px;
+  }
+  
+  .catchyLinesOne {
+  
+    font-size:17px;
+    margin: 20px -17px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .catchyLinesTwo {
+  
+    
+    width: 332px;
+    font-size: 17px;
+    margin: 10px -17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+  
+  .catchyLinesThree {
+    margin: 20px -17px;
+      width: 126px;
+      color: #706b6b;
+      font-size: 9px;
+  
+  }
+  .exploreButton {
+    font-size: 13px;
+    width: 101px;
+    height: 45px;
+    margin-left: -17px;
+    background-color: #ff7b66;;
+    border: 1px solid #ff7b66;;
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+  }
+  .someStats{
+    display: flex;
+    margin: 10px -17px;
+    gap: 28px;
+  }
+  
+  .stars
+  {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 9px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .someStatIcons{
+  
+    height: 50px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 1px 1px beige;
+  }
+  
+  .someStatIcons img{
+  
+    object-position: center;
+    width: 60px;
+    height: 40px;
+  }
+  
+  .stars img{
+    width: 104px;
+    /* height: 50px; */
+  
+  }
+  .stars p{
+   font-size: 7px;
+   margin-left: -53px;
+  }
+  .menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .menu ul li {
+    display: flex;
+    gap: 7px;
+    margin: 16px 2px;
+    font-size: 8px;
+    font-weight: 200px;
+  }
+
+  .titleImage{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 3px;
+    left: 16px;
+  }
+  .backImg
+{
+  position: absolute;
+  height: 100%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  overflow: visible;
+        right: 22px;
+        top: 9px;
+        width: 20px;
+
+}
+.navBar {
+  width: 100vw;
+  position: absolute;
+  z-index: 19; /* // optiona; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.title {
+  font-size: 30px;
+  margin: 17px 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2px;
+}
+.menu {
+margin: 6px 10px;
+float: right;
+}
+
+}
+
